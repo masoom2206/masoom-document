@@ -1,6 +1,4 @@
-# Masoom Document
-
-# Install Druapl by Lando
+To install Druapl by Lando
 
 Follow the URL: https://docs.lando.dev/drupal/getting-started.html
 

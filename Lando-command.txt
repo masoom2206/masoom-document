@@ -1,0 +1,25 @@
+  lando start
+  lando composer install
+  lando composer update
+# update all dependencies
+  lando composer update --with-all-dependencies
+# cache rebuilt
+  lando drush cr
+# Update database
+  lando drush updb
+# login bypass
+  lando drush uli
+# Import drupal configuration
+  lando drush cim
+# export config
+  lando drush cex -y
+# database export
+  lando db-export
+# rebuild lando
+  lando rebuild -y
+# set custom config value
+  lando drush config:set sessions_core.settings.start_date "12-04-2022"
+  lando drush config:set sessions_core.settings.start_end "15-04-2022"
+# Access database or enter to database section
+  lando drush sql-cli
+
